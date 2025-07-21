@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SAATHI - Your Chat Companion</title>
+  
+  <!-- Google Fonts Import -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="main-container">
+    <div class="chatbot-info">
+      <div class="chatbot-image">
+        <img src="logo frend.jpg" alt="Chatbot Image" />
+      </div>
+      <h2>About SAATHI</h2>
+      <p>SAATHI is a rule-based chatbot designed to assist you with various queries. It can answer questions about itself, provide information, and engage in casual conversation.</p>
+      <p>SAATHI is here to be your companion and help you with your needs.</p>
+      <h3>Features:</h3>
+      <ul>
+        <li>Casual conversation</li>
+        <li>Information about itself</li>
+        <li>Engagement in various topics</li>
+        <li>Friendly and supportive responses</li>
+      </ul>
+      <div class="footer">
+        <p>Developed by Kushagra Singh</p>
+        <p>© 2023 All rights reserved.</p>
+      </div>
+    </div>
+
+    <div class="chat-container">
+      <div class="chat-header">
+        <h1>✨ SAATHI ✨</h1>
+      </div>
+      <div id="chatbox" class="chatbox">
+        <!-- <div class="message bot">Hello! How can I help you today?</div>
+        <div class="message user">Hi there!</div> -->
+      </div>
+      <div class="input-area">
+        <input type="text" id="userInput" placeholder="Type your message..." />
+        <button onclick="sendMessage()">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
